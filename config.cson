@@ -1,0 +1,174 @@
+"*":
+  "activate-power-mode":
+    autoToggle: false
+    screenShake:
+      enabled: false
+  "atom-beautify":
+    general:
+      _analyticsUserId: "27b0811a-62b8-41ac-9023-780313feeb7c"
+    ruby:
+      indent_size: 2
+  "atom-ctags":
+    autoBuildTagsWhenActive: true
+  core:
+    disabledPackages: [
+      "language-ruby-on-rails"
+      "linter-pylint"
+      "ruby-block"
+      "language-objective-c"
+      "archive-view"
+      "autocomplete-atom-api"
+      "symbols-view"
+      "linter-eslint"
+      "symbols-tree-view"
+      "linter-ruby"
+      "linter-javac"
+      "vim-mode"
+      "git-diff-details"
+      "git-history"
+      "linter-reek"
+      "fold-functions"
+      "foldingtext-for-atom"
+      "foldingtext-markdown"
+      "markdown-folder"
+      "language-toml"
+      "language-php"
+      "language-perl"
+      "language-mustache"
+      "language-csharp"
+      "language-c"
+      "language-clojure"
+      "autocomplete-ruby"
+      "docblockr"
+      "yard"
+      "plantuml"
+      "language-d"
+      "minimap-git-diff"
+      "open-recent"
+      "todo-show"
+      "pigments"
+      "editorconfig"
+      "git-log"
+      "git-projects"
+      "git-status"
+      "git-control"
+      "git-time-machine"
+      "linter-swagger"
+      "terminal-plus"
+      "graphviz-preview"
+      "node-debugger"
+      "git-plus"
+      "linter-csslint"
+      "linter-htmlhint"
+      "linter-tidy"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "afterglow-monokai-syntax"
+    ]
+  editor:
+    autoIndentOnPaste: false
+    backUpBeforeSaving: true
+    fontFamily: "Source Code Pro"
+    fontSize: 13
+    invisibles: {}
+    preferredLineLength: 132
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "c5d4312f-329f-47da-8999-0982c7b7dd3f"
+  "file-icons": {}
+  "git-control":
+    showGitFlowButton: false
+  "git-diff":
+    showIconsInEditorGutter: true
+  "git-log":
+    fontFamily: "Source Code Pro"
+    fontScale: 1
+  "git-plus":
+    general:
+      _analyticsUserId: "9d93407c-1da3-44ca-b55c-4c46ecd15c0a"
+  linter: {}
+  "linter-eslint":
+    disableWhenNoEslintConfig: false
+    globalNodePath: "/usr/local"
+    useGlobalEslint: false
+  "linter-jshint":
+    executablePath: "/usr/local/bin/jshint"
+  "linter-pylint":
+    executable: "/usr/local/bin/pylint"
+    pythonPath: "%p/src/main/resources"
+  "linter-rubocop":
+    command: "/Users/michel/.rbenv/shims/rubocop"
+  "linter-ruby": {}
+  "linter-ui-default":
+    showPanel: true
+  "markdown-preview":
+    useGitHubStyle: true
+  minimap:
+    autoToggle: false
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+  "node-debugger":
+    appArgs: "face.jpg face.png"
+    debugPort: 5860
+    nodePath: "/usr/local/bin/node"
+  "one-dark-ui": {}
+  pigments: {}
+  "ruby-test":
+    minitestAllCommand: "./bin/start.sh test/unit/run_all_tests.rb"
+    specFramework: "minitest"
+    testFramework: "minitest"
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "symbols-tree-view":
+    autoHide: true
+    autoToggle: true
+  "terminal-plus":
+    style: {}
+  "todo-show":
+    statusBarIndicator: true
+  "tree-view":
+    hideIgnoredNames: true
+    squashDirectoryNames: true
+  "vim-mode": {}
+  welcome:
+    showOnStartup: false
+  whitespace:
+    removeTrailingWhitespace: false
+".diff":
+  editor:
+    preferredLineLength: 132
+".erb.html.text":
+  editor:
+    preferredLineLength: 132
+    softWrapAtPreferredLineLength: true
+".html.jsp.text":
+  editor:
+    preferredLineLength: 132
+".ini.source":
+  editor:
+    preferredLineLength: 132
+    softWrapAtPreferredLineLength: false
+".java-properties.source":
+  editor:
+    preferredLineLength: 132
+".java.source":
+  editor:
+    preferredLineLength: 132
+".json.source":
+  editor:
+    preferredLineLength: 132
+".junit-test-report.text":
+  editor:
+    preferredLineLength: 132
+".ruby.source":
+  editor:
+    preferredLineLength: 132
+    softWrapAtPreferredLineLength: true
