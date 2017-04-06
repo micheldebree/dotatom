@@ -1,5 +1,7 @@
-# Atom cheatsheet
-My personal cheatsheet for macOS
+# .atom
+My personal [Atom](https://atom.io) configuration for macOS
+
+## Cheatsheet
 
 &#x21E7; = shift
 ⎇ = alt
@@ -16,6 +18,8 @@ My personal cheatsheet for macOS
 | <kbd>^0</kbd> | Focus treeview |
 | | **Edit** |
 | <kbd>^&#x21E7;k</kbd> | Delete line |
+| <kbd>⌘l</kbd> | Select line |
+| <kbd>^&#x21E7;⌘d | Duplicate line |
 | <kbd>⌘]</kbd> | Indent right |
 | <kbd>⌘[</kbd> | Indent left |
 | | **Find** |
@@ -25,3 +29,5 @@ My personal cheatsheet for macOS
 | <kbd>⌘k⌘0-9</kbd> | Fold at indent level 0-9 |
 | <kbd>⎇⌘[</kbd> | Fold current |
 | <kbd>⎇⌘]</kbd> | Unfold current |
+
+## Plugins

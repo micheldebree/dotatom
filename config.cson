@@ -50,7 +50,7 @@
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
-      "afterglow-plus"
+      "solarized-dark-syntax"
     ]
   editor:
     autoIndentOnPaste: false
@@ -88,7 +88,10 @@
     command: "/Users/michel/.rbenv/shims/rubocop"
   "linter-ruby": {}
   "linter-ui-default":
+    decorateOnTreeView: "Files and Directories"
+    panelHeight: 142
     showPanel: true
+    showStatusBar: false
   "linter-xmllint":
     executablePath: "/usr/bin/xmllint"
   "markdown-preview":
