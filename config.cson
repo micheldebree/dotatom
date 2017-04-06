@@ -8,25 +8,21 @@
       _analyticsUserId: "27b0811a-62b8-41ac-9023-780313feeb7c"
     ruby:
       indent_size: 2
+    xml:
+      indent_size: 2
   "atom-ctags":
     autoBuildTagsWhenActive: true
   core:
     disabledPackages: [
       "language-ruby-on-rails"
       "linter-pylint"
-      "ruby-block"
       "language-objective-c"
       "archive-view"
       "autocomplete-atom-api"
       "symbols-view"
-      "linter-eslint"
-      "symbols-tree-view"
-      "linter-ruby"
       "linter-javac"
       "vim-mode"
       "git-diff-details"
-      "git-history"
-      "linter-reek"
       "fold-functions"
       "foldingtext-for-atom"
       "foldingtext-markdown"
@@ -39,33 +35,22 @@
       "language-c"
       "language-clojure"
       "autocomplete-ruby"
-      "docblockr"
-      "yard"
       "plantuml"
       "language-d"
-      "minimap-git-diff"
-      "open-recent"
-      "todo-show"
-      "pigments"
-      "editorconfig"
-      "git-log"
-      "git-projects"
-      "git-status"
-      "git-control"
       "git-time-machine"
-      "linter-swagger"
       "terminal-plus"
       "graphviz-preview"
-      "node-debugger"
-      "git-plus"
-      "linter-csslint"
-      "linter-htmlhint"
       "linter-tidy"
+      "plantuml-viewer"
+      "language-plantuml"
+      "language-dot"
+      "graphviz-preview-plus"
+      "autocomplete-xml"
     ]
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
-      "afterglow-monokai-syntax"
+      "afterglow-plus"
     ]
   editor:
     autoIndentOnPaste: false
@@ -104,6 +89,8 @@
   "linter-ruby": {}
   "linter-ui-default":
     showPanel: true
+  "linter-xmllint":
+    executablePath: "/usr/bin/xmllint"
   "markdown-preview":
     useGitHubStyle: true
   minimap:
