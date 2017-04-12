@@ -25,3 +25,16 @@
 # If you are unfamiliar with CSON, you can read more about it in the 
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
+
+"atom-text-editor[data-grammar='source ts']":
+  'f12': 'typescript:go-to-declaration'
+  'f10': 'typescript:return-from-declaration'
+
+# "atom-text-editor[data-grammar='source ruby']":
+#   'f12': 'atom-ctags:go-to-declaration'
+#   'f10': 'atom-ctags:return-from-declaration'
+
+# VIM like mappings
+'atom-text-editor':
+  'ctrl-]': 'atom-ctags:go-to-declaration'
+  'ctrl-o': 'atom-ctags:return-from-declaration'

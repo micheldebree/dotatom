@@ -6,6 +6,8 @@
   "atom-beautify":
     general:
       _analyticsUserId: "27b0811a-62b8-41ac-9023-780313feeb7c"
+    json:
+      indent_size: 2
     ruby:
       indent_size: 2
     xml:
@@ -19,7 +21,6 @@
       "language-objective-c"
       "archive-view"
       "autocomplete-atom-api"
-      "symbols-view"
       "linter-javac"
       "vim-mode"
       "git-diff-details"
@@ -46,8 +47,9 @@
       "language-dot"
       "graphviz-preview-plus"
       "autocomplete-xml"
+      "symbols-view"
     ]
-    telemetryConsent: "limited"
+    telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "solarized-dark-syntax"
@@ -60,6 +62,7 @@
     invisibles: {}
     preferredLineLength: 132
     showIndentGuide: true
+    softTabs: false
     softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "c5d4312f-329f-47da-8999-0982c7b7dd3f"
