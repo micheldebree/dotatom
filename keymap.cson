@@ -25,7 +25,6 @@
 # If you are unfamiliar with CSON, you can read more about it in the 
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
-
 "atom-text-editor[data-grammar='source ts']":
   'f12': 'typescript:go-to-declaration'
   'f10': 'typescript:return-from-declaration'
@@ -38,3 +37,10 @@
 'atom-text-editor':
   'ctrl-]': 'atom-ctags:go-to-declaration'
   'ctrl-o': 'atom-ctags:return-from-declaration'
+  # 'alt-right': 'editor:move-to-next-word-boundary'
+  # 'alt-right': 'editor:move-to-beginning-of-next-word'
+  # 'alt-left': 'editor:move-to-beginning-of-next-word'
+  'alt-up': 'editor:move-to-beginning-of-previous-paragraph' 
+  'alt-down': 'editor:move-to-beginning-of-next-paragraph'
+  'cmd-%': 'bracket-matcher:go-to-matching-bracket'
+  'cmd-*': 'find-and-replace:find-next-selected'  
