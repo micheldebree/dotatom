@@ -15,6 +15,10 @@
   "atom-ctags":
     autoBuildTagsWhenActive: true
   core:
+    customFileTypes:
+      "source.apache-config": [
+        "proxy"
+      ]
     disabledPackages: [
       "language-ruby-on-rails"
       "linter-pylint"
@@ -48,12 +52,14 @@
       "graphviz-preview-plus"
       "autocomplete-xml"
       "symbols-view"
+      "react"
     ]
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "solarized-dark-syntax"
     ]
+    titleBar: "custom"
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
@@ -61,7 +67,7 @@
     fontSize: 13
     invisibles: {}
     preferredLineLength: 132
-    showIndentGuide: true
+    showLineNumbers: false
     softTabs: false
     softWrapAtPreferredLineLength: true
   "exception-reporting":
@@ -116,7 +122,6 @@
     testFramework: "minitest"
   "split-diff":
     diffWords: true
-    ignoreWhitespace: true
     leftEditorColor: "red"
     rightEditorColor: "green"
     syncHorizontalScroll: true
