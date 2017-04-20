@@ -133,7 +133,9 @@
   "todo-show":
     statusBarIndicator: true
   "tree-view":
+    autoReveal: true
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
     squashDirectoryNames: true
   "vim-mode": {}
   welcome:
