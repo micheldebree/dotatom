@@ -1,5 +1,7 @@
 # .atom
-My personal [Atom](https://atom.io) configuration for macOS
+My personal [Atom](https://atom.io) configuration for macOS.
+
+Installed packages are listed in [installed_packages.txt](installed_packages.txt). Not all of them are enabled.
 
 ## Cheatsheet
 
