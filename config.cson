@@ -4,13 +4,21 @@
     screenShake:
       enabled: false
   "atom-beautify":
+    coffeescript:
+      indent_with_tabs: false
     general:
       _analyticsUserId: "27b0811a-62b8-41ac-9023-780313feeb7c"
+      beautifyEntireFileOnSave: false
     json:
+      eval_code: true
+      indent_char: " "
       indent_size: 2
     ruby:
       indent_size: 2
+    typescript:
+      disabled: true
     xml:
+      indent_char: " "
       indent_size: 2
   "atom-ctags":
     autoBuildTagsWhenActive: true
@@ -39,20 +47,15 @@
       "language-csharp"
       "language-c"
       "language-clojure"
-      "autocomplete-ruby"
-      "plantuml"
-      "language-d"
-      "git-time-machine"
-      "terminal-plus"
-      "graphviz-preview"
       "linter-tidy"
-      "plantuml-viewer"
-      "language-plantuml"
-      "language-dot"
-      "graphviz-preview-plus"
-      "autocomplete-xml"
       "symbols-view"
       "react"
+      "markdown-preview"
+      "whitespace"
+      "node-debugger"
+      "pigments"
+      "git-plus"
+      "linter-jshint"
     ]
     telemetryConsent: "no"
     themes: [
@@ -65,11 +68,13 @@
     backUpBeforeSaving: true
     fontFamily: "Source Code Pro"
     fontSize: 13
-    invisibles: {}
+    invisibles:
+      space: " "
     preferredLineLength: 132
     showLineNumbers: false
     softTabs: false
     softWrapAtPreferredLineLength: true
+    tabLength: 4
   "exception-reporting":
     userId: "c5d4312f-329f-47da-8999-0982c7b7dd3f"
   "file-icons": {}
@@ -81,8 +86,12 @@
     fontFamily: "Source Code Pro"
     fontScale: 1
   "git-plus":
+    experimental:
+      stageFilesBeta: false
+      useSplitDiff: true
     general:
       _analyticsUserId: "9d93407c-1da3-44ca-b55c-4c46ecd15c0a"
+      showFormat: "none"
   linter: {}
   "linter-eslint":
     disableWhenNoEslintConfig: false
@@ -103,8 +112,9 @@
     showStatusBar: false
   "linter-xmllint":
     executablePath: "/usr/bin/xmllint"
-  "markdown-preview":
-    useGitHubStyle: true
+  "markdown-preview": {}
+  "markdown-preview-plus":
+    enablePandoc: true
   minimap:
     autoToggle: false
     plugins:
@@ -121,10 +131,11 @@
     specFramework: "minitest"
     testFramework: "minitest"
   "split-diff":
-    diffWords: true
+    ignoreWhitespace: true
     leftEditorColor: "red"
     rightEditorColor: "green"
     syncHorizontalScroll: true
+  "status-bar": {}
   "symbols-tree-view":
     autoHide: true
     autoToggle: true
@@ -132,6 +143,8 @@
     style: {}
   "todo-show":
     statusBarIndicator: true
+  "trailing-spaces":
+    enableForIndentation: true
   "tree-view":
     autoReveal: true
     hideIgnoredNames: true

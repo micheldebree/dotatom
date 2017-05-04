@@ -22,25 +22,32 @@
 # * https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 #
 # This file uses CoffeeScript Object Notation (CSON).
-# If you are unfamiliar with CSON, you can read more about it in the 
+# If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 "atom-text-editor[data-grammar='source ts']":
-  'f12': 'typescript:go-to-declaration'
-  'f10': 'typescript:return-from-declaration'
+  'ctrl-]': 'typescript:go-to-declaration'
+  'ctrl-o': 'typescript:return-from-declaration'
+  'ctrl-alt-b': 'typescript:format-code'
 
 # "atom-text-editor[data-grammar='source ruby']":
 #   'f12': 'atom-ctags:go-to-declaration'
 #   'f10': 'atom-ctags:return-from-declaration'
 
-# VIM like mappings
 'atom-text-editor':
+  'f7': 'git-plus:diff'
+  # VIM like mappings
   'ctrl-]': 'atom-ctags:go-to-declaration'
   'ctrl-o': 'atom-ctags:return-from-declaration'
   # 'alt-right': 'editor:move-to-next-word-boundary'
   # 'alt-right': 'editor:move-to-beginning-of-next-word'
   # 'alt-left': 'editor:move-to-beginning-of-next-word'
-  'alt-up': 'editor:move-to-beginning-of-previous-paragraph' 
+  'alt-up': 'editor:move-to-beginning-of-previous-paragraph'
   'alt-down': 'editor:move-to-beginning-of-next-paragraph'
   'cmd-%': 'bracket-matcher:go-to-matching-bracket'
-  'cmd-*': 'find-and-replace:find-next-selected'  
+  'cmd-*': 'find-and-replace:find-next-selected'
+  'cmd-d cmd-d': 'editor:delete-line'
+  'cmd-d cmd-w': 'editor:delete-to-next-word-boundary'
+  # 'cmd-d cmd-w': 'editor:delete-to-end-of-word'
+  'cmd-> cmd->': 'editor.indent-selected-rows'
+  'cmd-< cmd-<': 'editor.outdent-selected-rows'
