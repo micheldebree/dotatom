@@ -36,6 +36,9 @@
 
 'atom-text-editor':
   'f7': 'git-plus:diff'
+  'f8': 'symbols-tree-view:toggle'
+  # restore ctrl-b which was overwritten by vim mode package
+  'ctrl-b': 'git-blame:toggle'
   # VIM like mappings
   'ctrl-]': 'atom-ctags:go-to-declaration'
   'ctrl-o': 'atom-ctags:return-from-declaration'

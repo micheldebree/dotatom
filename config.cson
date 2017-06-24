@@ -9,10 +9,14 @@
     general:
       _analyticsUserId: "27b0811a-62b8-41ac-9023-780313feeb7c"
       beautifyEntireFileOnSave: false
+    js:
+      indent_char: "  "
+      indent_with_tabs: false
     json:
       eval_code: true
       indent_char: " "
       indent_size: 2
+      indent_with_tabs: false
     ruby:
       indent_size: 2
     typescript:
@@ -22,6 +26,8 @@
       indent_size: 2
   "atom-ctags":
     autoBuildTagsWhenActive: true
+  "atom-package-deps":
+    ignored: []
   core:
     customFileTypes:
       "source.apache-config": [
@@ -48,14 +54,15 @@
       "language-c"
       "language-clojure"
       "linter-tidy"
-      "symbols-view"
       "react"
       "markdown-preview"
       "whitespace"
-      "node-debugger"
       "pigments"
-      "git-plus"
       "linter-jshint"
+      "atom-ctags"
+      "git-plus"
+      "git-blame"
+      "language-mermaid"
     ]
     telemetryConsent: "no"
     themes: [
@@ -71,6 +78,7 @@
     invisibles:
       space: " "
     preferredLineLength: 132
+    showInvisibles: true
     showLineNumbers: false
     softTabs: false
     softWrapAtPreferredLineLength: true
@@ -99,6 +107,8 @@
     useGlobalEslint: false
   "linter-jshint":
     executablePath: "/usr/local/bin/jshint"
+  "linter-markdown":
+    presetRecommendedWithoutConfig: false
   "linter-pylint":
     executable: "/usr/local/bin/pylint"
     pythonPath: "%p/src/main/resources"
@@ -121,11 +131,14 @@
       "git-diff": true
       "git-diffDecorationsZIndex": 0
   "node-debugger":
-    appArgs: "face.jpg face.png"
+    appArgs: "face.jpg out.png"
     debugPort: 5860
-    nodePath: "/usr/local/bin/node"
+    nodePath: "node"
   "one-dark-ui": {}
   pigments: {}
+  "platformio-ide-terminal":
+    style:
+      theme: "solarized-dark"
   "ruby-test":
     minitestAllCommand: "./bin/start.sh test/unit/run_all_tests.rb"
     specFramework: "minitest"
@@ -136,9 +149,7 @@
     rightEditorColor: "green"
     syncHorizontalScroll: true
   "status-bar": {}
-  "symbols-tree-view":
-    autoHide: true
-    autoToggle: true
+  "symbols-tree-view": {}
   "terminal-plus":
     style: {}
   "todo-show":
