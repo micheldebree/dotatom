@@ -30,12 +30,14 @@
   'ctrl-o': 'typescript:return-from-declaration'
   'ctrl-alt-b': 'typescript:format-code'
 
+"atom-text-editor[data-grammar='source js']":
+  'f12': 'atom-ternjs:documentation'
+
 # "atom-text-editor[data-grammar='source ruby']":
 #   'f12': 'atom-ctags:go-to-declaration'
 #   'f10': 'atom-ctags:return-from-declaration'
 
 'atom-text-editor':
-  'f7': 'git-plus:diff'
   'f8': 'symbols-tree-view:toggle'
   # restore ctrl-b which was overwritten by vim mode package
   'ctrl-b': 'git-blame:toggle'
@@ -52,5 +54,6 @@
   'cmd-d cmd-d': 'editor:delete-line'
   'cmd-d cmd-w': 'editor:delete-to-next-word-boundary'
   # 'cmd-d cmd-w': 'editor:delete-to-end-of-word'
-  'cmd-> cmd->': 'editor.indent-selected-rows'
-  'cmd-< cmd-<': 'editor.outdent-selected-rows'
+  'cmd-> cmd->': 'editor:indent-selected-rows'
+  'cmd-< cmd-<': 'editor:outdent-selected-rows'
+  'cmd-0': 'editor:move-to-beginning-of-line'

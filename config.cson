@@ -10,7 +10,10 @@
       _analyticsUserId: "27b0811a-62b8-41ac-9023-780313feeb7c"
       beautifyEntireFileOnSave: false
     js:
-      indent_char: "  "
+      brace_style: "end-expand"
+      end_with_newline: true
+      indent_char: " "
+      indent_size: 4
       indent_with_tabs: false
     json:
       eval_code: true
@@ -32,6 +35,9 @@
     customFileTypes:
       "source.apache-config": [
         "proxy"
+      ]
+      "source.assembly.6502.cc65": [
+        "asm"
       ]
     disabledPackages: [
       "language-ruby-on-rails"
@@ -60,9 +66,9 @@
       "pigments"
       "linter-jshint"
       "atom-ctags"
-      "git-plus"
       "git-blame"
       "language-mermaid"
+      "graphviz-preview"
     ]
     telemetryConsent: "no"
     themes: [
@@ -78,7 +84,6 @@
     invisibles:
       space: " "
     preferredLineLength: 132
-    showInvisibles: true
     showLineNumbers: false
     softTabs: false
     softWrapAtPreferredLineLength: true
