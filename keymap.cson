@@ -32,6 +32,7 @@
 
 "atom-text-editor[data-grammar='source js']":
   'f12': 'atom-ternjs:documentation'
+  'shift-f6': 'atom-ternjs:rename'
 
 # "atom-text-editor[data-grammar='source ruby']":
 #   'f12': 'atom-ctags:go-to-declaration'

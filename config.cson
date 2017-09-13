@@ -18,19 +18,24 @@
     json:
       eval_code: true
       indent_char: " "
-      indent_size: 2
+      indent_size: 4
       indent_with_tabs: false
     ruby:
       indent_size: 2
     typescript:
       disabled: true
     xml:
+      default_beautifier: "JS Beautify"
       indent_char: " "
-      indent_size: 2
+      indent_inner_html: true
+      indent_size: 4
+      max_preserve_newlines: 1
   "atom-ctags":
     autoBuildTagsWhenActive: true
   "atom-package-deps":
     ignored: []
+  "atom-ternjs":
+    useSnippets: true
   core:
     customFileTypes:
       "source.apache-config": [
@@ -67,14 +72,9 @@
       "linter-jshint"
       "atom-ctags"
       "git-blame"
-      "language-mermaid"
       "graphviz-preview"
     ]
     telemetryConsent: "no"
-    themes: [
-      "one-dark-ui"
-      "solarized-dark-syntax"
-    ]
     titleBar: "custom"
   editor:
     autoIndentOnPaste: false
