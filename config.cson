@@ -13,7 +13,7 @@
       brace_style: "end-expand"
       end_with_newline: true
       indent_char: " "
-      indent_size: 4
+      indent_size: 2
       indent_with_tabs: false
     json:
       eval_code: true
@@ -73,8 +73,15 @@
       "atom-ctags"
       "git-blame"
       "graphviz-preview"
+      "linter"
+      "atom-ternjs"
+      "language-gfm"
     ]
     telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
     titleBar: "custom"
   editor:
     autoIndentOnPaste: false
@@ -84,8 +91,8 @@
     invisibles:
       space: " "
     preferredLineLength: 132
-    showLineNumbers: false
     softTabs: false
+    softWrap: true
     softWrapAtPreferredLineLength: true
     tabLength: 4
   "exception-reporting":
@@ -113,7 +120,9 @@
   "linter-jshint":
     executablePath: "/usr/local/bin/jshint"
   "linter-markdown":
+    presetConsistentWithoutConfig: false
     presetRecommendedWithoutConfig: false
+    presetStyleGuideWithoutConfig: true
   "linter-pylint":
     executable: "/usr/local/bin/pylint"
     pythonPath: "%p/src/main/resources"
@@ -122,8 +131,7 @@
   "linter-ruby": {}
   "linter-ui-default":
     decorateOnTreeView: "Files and Directories"
-    panelHeight: 142
-    showPanel: true
+    panelHeight: 177
     showStatusBar: false
   "linter-xmllint":
     executablePath: "/usr/bin/xmllint"
@@ -166,11 +174,19 @@
     hideIgnoredNames: true
     hideVcsIgnoredFiles: true
     squashDirectoryNames: true
+  "tree-view-git-status":
+    showCommitsAheadLabel: false
+    showCommitsBehindLabel: false
   "vim-mode": {}
+  "vim-mode-plus":
+    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
   welcome:
     showOnStartup: false
   whitespace:
     removeTrailingWhitespace: false
+".ansible.source":
+  editor:
+    tabLength: 2
 ".diff":
   editor:
     preferredLineLength: 132
@@ -201,3 +217,6 @@
   editor:
     preferredLineLength: 132
     softWrapAtPreferredLineLength: true
+".source.yaml":
+  editor:
+    tabLength: 2
